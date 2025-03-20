@@ -20,7 +20,7 @@ function App() {
   return (
     <div className="App">
       <img src={logo} alt="Budget Tracker Logo" className="logo" />
-      <Header tittle="Budget Tracker" />
+      <Header title="Budget Tracker" />
       <Balance transactions={transactions} />
       <TransactionForm onAdd={addTransaction} />
       <TransactionList transactions={transactions} onRemove={removeTransaction} />
